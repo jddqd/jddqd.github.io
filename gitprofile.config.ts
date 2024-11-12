@@ -94,18 +94,18 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Centre National de Recherche Scientifique (CNRS)',
+      position: 'Research Intern',
+      from: 'July 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.cnrs.fr/fr',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Nestlé',
+      position: 'Data Scientist Intern',
+      from: 'July 2023',
+      to: 'August 2023',
+      companyLink: 'https://www.nqaclabs.com/',
     },
   ],
   certifications: [
