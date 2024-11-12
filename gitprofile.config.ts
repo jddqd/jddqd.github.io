@@ -124,16 +124,22 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'École Polytechnique',
+      degree: 'Master Of Science',
+      from: '2024',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Télécom Sudparis',
+      degree: 'Cycle ingénieur Grande École, egineer degree ',
+      from: '2022',
+      to: '2025',
+    },
+    {
+      institution: 'Lycée Henri Poincaré',
+      degree: 'Preparatory Class, MPSI-MP*',
+      from: '2020',
+      to: '2022',
     },
   ],
   publications: [
