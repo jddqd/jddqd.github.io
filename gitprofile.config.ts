@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button. https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
   },
   skills: [
     'Python',
@@ -125,7 +125,7 @@ const CONFIG = {
     },
     {
       institution: 'Télécom Sudparis',
-      degree: 'Cycle ingénieur Grande École, egineer degree ',
+      degree: 'Cycle ingénieur Grande École, Engineer Degree ',
       from: '2022',
       to: '2025',
     },
