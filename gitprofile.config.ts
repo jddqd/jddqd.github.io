@@ -83,6 +83,7 @@ const CONFIG = {
     'Machine Learning',
     'Mathematics',
     'Optimization',
+    'Linux',
   ],
   experiences: [
     {
