@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['jddqd/WassersteinGAN', 'jddqd/Hackaton_HiParis', 'jddqd/Kernel_Target_Alignment', 'jddqd/Molecular_Dynamics'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -87,8 +87,14 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Huawei Sweden',
+      position: 'AI Research Intern',
+      from: 'April 2025',
+      companyLink: 'https://consumer.huawei.com/se/',
+    },
+    {
       company: 'Centre National de Recherche Scientifique (CNRS)',
-      position: 'Research Intern',
+      position: 'AI Research Intern',
       from: 'July 2024',
       to: 'August 2024',
       companyLink: 'https://www.cnrs.fr/fr',
